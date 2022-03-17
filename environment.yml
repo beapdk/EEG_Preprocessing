@@ -1,0 +1,11 @@
+name: env_tacs
+channels:
+    - conda-forge
+dependencies:
+    - ipython
+    - pydicom
+    - jupyter
+    - pip
+    - matplotlib
+    - mne
+    - os
