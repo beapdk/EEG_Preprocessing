@@ -10,3 +10,4 @@ dependencies:
     - mne
     - os
     - sklearn
+    - mne_bids

@@ -1,9 +1,17 @@
 doc_001
 
-sub-001_ses-01_task-pre_eeg
+sub-001_ses-01_task-pre_eeg refaire !
 
     Recording in bad shape. We had to apply a larger notch (4 Hz width) at 60 Hz to reduce impact. Lots of epochs were removed.
     Channels marked as bad:['E35', 'E95', 'E100', 'E101', 'E113', 'E114']
+
+
+
+# filter the data between 1 to 55 Hz
+
+# notch filter the data for freq =60
+eeg_notch = eeg_cropped_filtered.copy().notch_filter(freqs= 60, notch_widths= 4)
+
 
     ica:
     Method	fastica
@@ -20,20 +28,56 @@ sub-001_ses-01_task-pre_eeg
     
     16 epochs left after epochs rejection 
 
-sub-001_ses-01_task-post_eeg
+sub-001_ses-01_task-post_eeg, cropped (tmin=1, tmax=340.0) refaire !
 
-    Channels marked as bad:['E49', 'E18', 'E44', 'E82', 'E79', 'E78', 'E95', 'E100', 'E114', 'E113', 'E108', 'E125']
+    Channels marked as bad:['E44', 'E49', 'E56', 'E54', 'E78', 'E79', 'E100', 'E114', 'E113', 'E125']
 
-    Method	fastica
-        Fit	74 iterations on raw data (86001 samples)
+   Method	fastica
+        Fit	41 iterations on raw data (86001 samples)
         ICA components	15
-        Explained variance	98.2 %
+        Explained variance	98.0 %
         Available PCA components	129
         Channel types	eeg
         ICA components marked for exclusion	
-        ICA002
         ICA010
-        ICA011
-        ICA013
+        ICA001
+        ICA004
             
-    19 epochs left after epochs rejection 
+    18 epochs left after epochs rejection 
+
+sub-001_ses-01_task-post60_eeg, cropped (tmin=3.0, tmax=340.0)
+
+            Channels marked as bad:
+            ['E42', 'E49', 'E68', 'E73', 'E114', 'E113', 'E110', 'E100', 'E126', 'E125', 'E119']
+
+            Method	fastica
+            Fit	36 iterations on raw data (84251 samples)
+            ICA components	15
+            Explained variance	81.1 %
+            Available PCA components	129
+            Channel types	eeg
+            ICA components marked for exclusion	
+            ICA000
+            ICA004
+            ICA012
+            ICA007
+
+        15 epochs left after epochs rejection 
+
+sub-001_ses-01_task-post120_eeg, cropped (tmin=2.0, tmax=357.0)
+
+Channels marked as bad: ['E49', 'E42', 'E47', 'E46', 'E56', 'E44', 'E113', 'E114', 'E126', 'E119', 'E125', 'E104', 'E99']
+
+        Method	fastica
+        Fit	30 iterations on raw data (88751 samples)
+        ICA components	15
+        Explained variance	98.2 %
+        Available PCA components	125
+        Channel types	eeg
+        ICA components marked for exclusion	
+        ICA012
+        ICA014
+        ICA007
+
+        16 epochs left
+        dropped channel 35 additionaly
