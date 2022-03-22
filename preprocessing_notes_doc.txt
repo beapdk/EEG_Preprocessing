@@ -1,0 +1,39 @@
+doc_001
+
+sub-001_ses-01_task-pre_eeg
+
+    Recording in bad shape. We had to apply a larger notch (4 Hz width) at 60 Hz to reduce impact. Lots of epochs were removed.
+    Channels marked as bad:['E35', 'E95', 'E100', 'E101', 'E113', 'E114']
+
+    ica:
+    Method	fastica
+        Method	fastica
+            Fit	39 iterations on raw data (82501 samples)
+            ICA components	15
+            Explained variance	75.9 %
+            Available PCA components	129
+            Channel types	eeg
+            ICA components marked for exclusion	ICA000
+            ICA008
+            ICA005
+            ICA007
+    
+    16 epochs left after epochs rejection 
+
+sub-001_ses-01_task-post_eeg
+
+    Channels marked as bad:['E49', 'E18', 'E44', 'E82', 'E79', 'E78', 'E95', 'E100', 'E114', 'E113', 'E108', 'E125']
+
+    Method	fastica
+        Fit	74 iterations on raw data (86001 samples)
+        ICA components	15
+        Explained variance	98.2 %
+        Available PCA components	129
+        Channel types	eeg
+        ICA components marked for exclusion	
+        ICA002
+        ICA010
+        ICA011
+        ICA013
+            
+    19 epochs left after epochs rejection 
