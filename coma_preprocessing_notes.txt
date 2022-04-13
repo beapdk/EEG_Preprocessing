@@ -1,0 +1,128 @@
+sub-001_ses-01_task-pre_eeg, cropped(tmin=2.0,tmax=424.0)
+
+Channels marked as bad:
+['E54', 'E56', 'E57', 'E43', 'E49', 'E48', 'E127', 'E128']
+
+Method	fastica
+Fit	20 iterations on raw data (105501 samples)
+ICA components	15
+Explained variance	86.6 %
+Available PCA components	129
+Channel types	eeg
+ICA components marked for exclusion	ICA003
+ICA010
+ICA007
+ICA001
+ICA005
+ICA000
+
+
+sub-001_ses-01_task-post_eeg, cropped(tmin=2.0, tmax=388.0)
+Channels marked as bad:
+['E44', 'E56', 'E38', 'E57', 'E82', 'E74', 'E63', 'E113', 'E128']
+
+Method	fastica
+Fit	30 iterations on raw data (96501 samples)
+ICA components	15
+Explained variance	78.6 %
+Available PCA components	129
+Channel types	eeg
+ICA components marked for exclusion	ICA005
+ICA002
+ICA014
+ICA009
+ICA012
+ICA007
+
+22 epochs left
+Channels marked as bad:
+['E40', 'E55', 'E54']
+
+
+
+sub-001_ses-01_task-post60_eeg, cropped(tmin=1.0, tmax=364.0)
+
+Channels marked as bad:
+['E48', 'E56', 'E54', 'E55', 'E82', 'E74', 'E69', 'E68', 'E113', 'E112', 'E119', 'E105']
+
+Method	fastica
+Fit	41 iterations on raw data (90751 samples)
+ICA components	15
+Explained variance	74.2 %
+Available PCA components	129
+Channel types	eeg
+ICA components marked for exclusion	ICA004
+ICA002
+ICA014
+ICA009
+ICA000
+
+
+13 epochs left
+Channels marked as bad:
+['E57,'E34']]
+
+sub-001_ses-01_task-post120_eeg, cropped(tmin=1.0, tmax=330.0)
+
+Channels marked as bad:
+['E54', 'E34', 'E35', 'E82', 'E113']
+
+Method	fastica
+Fit	35 iterations on raw data (82251 samples)
+ICA components	15
+Explained variance	79.6 %
+Available PCA components	129
+Channel types	eeg
+ICA components marked for exclusion	ICA002
+ICA010
+ICA001
+ICA011
+
+
+23 epochs left
+Channels marked as bad:
+['E41, È74]
+
+sub-001_ses-02_task-pre_eeg, cropped(tmin=1.0, tmax=368.0)
+
+Channels marked as bad:
+['E44', 'E4', 'E56', 'E113', 'E112', 'E119', 'E120']
+
+Method	fastica
+Fit	65 iterations on raw data (91751 samples)
+ICA components	15
+Explained variance	92.9 %
+Available PCA components	128
+Channel types	eeg
+ICA components marked for exclusion	ICA013
+ICA002
+ICA010
+
+
+19 epochs left
+Channels marked as bad:
+['E27', 'E28','E48', 'E110']
+
+sub-001_ses-02_task-post_eeg, cropped(tmax=335.0)
+
+Channels marked as bad:
+['E56', 'E113', 'E62', 'E126', 'E128', 'E118', 'E124']
+
+Method	fastica
+Fit	71 iterations on raw data (83751 samples)
+ICA components	15
+Explained variance	87.9 %
+Available PCA components	129
+Channel types	eeg
+ICA components marked for exclusion	ICA006
+ICA010
+ICA013
+ICA000
+
+Channels marked as bad:
+['E27', 'E31', 'E93','E10', 'E95']
+
+29 epochs left
+
+
+
