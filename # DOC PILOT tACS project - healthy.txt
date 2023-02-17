@@ -1,0 +1,193 @@
+# DOC PILOT tACS project - healthy
+
+## SUB-TACS01
+
+### sub-TACS01_ses-01_task-pre
+
+### crop and bad channels
+crop(tmin=1.0,tmax=321.0)
+Channels marked as bad:
+['E27', 'E126', 'E114', 'E120', 'E94']
+### epochs
+Number of events	32
+Events	1: 32
+Time range	0.000 – 9.996 sec
+Baseline	off
+
+## epochs removed
+
+
+### ICA 
+Method	fastica
+Fit	39 iterations on epochs (80000 samples)
+ICA components	30
+Explained variance	99.4 %
+Available PCA components	124
+Channel types	eeg
+ICA components marked for exclusion	ICA000
+ICA003
+ICA010
+ICA006
+ICA022
+ICA021
+ICA017
+ICA019
+ICA023
+ICA026
+ICA024
+ICA001
+
+### sub-TACS01_ses-01_task-post
+
+### crop and bad channels
+eeg_cropped= eeg_notch.crop(tmin=1.0,tmax=329.0)
+Channels marked as bad:
+['E27', 'E114', 'E126', 'E120', 'E125', 'E43', 'E44']['E68']['E9', 'E22', 'E23', 'E69']
+### epochs
+Number of events	32
+Events	1: 32
+Time range	0.000 – 9.996 sec
+Baseline	off
+
+## epochs removed
+
+Dropped 4 epochs: 5, 13, 23, 24
+The following epochs were marked as bad and are dropped:
+[5, 13, 23, 24]
+### ICA 
+Method	fastica
+Fit	46 iterations on epochs (80000 samples)
+ICA components	30
+Explained variance	99.1 %
+Available PCA components	121
+Channel types	eeg
+ICA components marked for exclusion	ICA009
+ICA006
+ICA007
+ICA001
+ICA000
+ICA026
+ICA024
+ICA018
+ICA020
+ICA019
+ICA027
+ICA008
+
+
+### sub-TACS01_ses-01_task-post60
+
+### crop and bad channels
+crop(tmin=1.0,tmax=340.0)
+Channels marked as bad:
+['E120', 'E68', 'E126', 'E94']['E27']['E9', 'E10', 'E23']['E15']['E1']
+### epochs
+Number of events	33
+Events	1: 33
+Time range	0.000 – 9.996 sec
+Baseline	off
+
+## epochs removed
+Dropped 1 epoch: 16
+The following epochs were marked as bad and are dropped:
+[16]
+Dropped 1 epoch: 28
+The following epochs were marked as bad and are dropped:
+[29]
+
+### ICA 
+Method	fastica
+Fit	40 iterations on epochs (82500 samples)
+ICA components	30
+Explained variance	99.5 %
+Available PCA components	124
+Channel types	eeg
+ICA components marked for exclusion	ICA010
+ICA000
+ICA001
+ICA002
+ICA013
+ICA014
+ICA024
+ICA023
+ICA008
+### sub-TACS01_ses-01_task-post120
+
+### crop and bad channels
+crop(tmin=1.0,tmax=332)
+['E114', 'E126', 'E81', 'E27']['E9', 'E1', 'E22', 'E32', 'E23', 'E38', 'E121']['E15']
+### epochs
+Number of events	33
+Events	1: 33
+Time range	0.000 – 9.996 sec
+Baseline	off
+
+## epochs removed
+
+
+### ICA 
+Method	fastica
+Fit	44 iterations on epochs (82500 samples)
+ICA components	30
+Explained variance	99.3 %
+Available PCA components	125
+Channel types	eeg
+ICA components marked for exclusion	ICA000
+ICA001
+ICA004
+ICA006
+ICA017
+ICA014
+ICA027
+ICA020
+ICA025
+ICA029
+ICA021
+ICA011
+
+## SUB-002
+
+### sub-TACS02_ses-01_task-pre
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+### sub-TACS02_ses-01_task-post
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+
+### sub-TACS02_ses-01_task-post60
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+### sub-TACS02_ses-01_task-post120
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
