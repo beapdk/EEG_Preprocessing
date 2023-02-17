@@ -1,0 +1,96 @@
+# DOC PILOT tACS project - healthy
+
+## SUB-TACS01
+
+### sub-TACS01_ses-01_task-pre
+
+### crop and bad channels
+crop(tmin=1.0,tmax=321.0)
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+### sub-TACS01_ses-01_task-post
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+
+### sub-TACS01_ses-01_task-post60
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+### sub-TACS01_ses-01_task-post120
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+## SUB-002
+
+### sub-TACS02_ses-01_task-pre
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+### sub-TACS02_ses-01_task-post
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+
+### sub-TACS02_ses-01_task-post60
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 
+
+### sub-TACS02_ses-01_task-post120
+
+### crop and bad channels
+
+### epochs
+
+## epochs removed
+
+
+### ICA 

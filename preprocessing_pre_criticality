@@ -839,7 +839,7 @@ ICA017
 crop(tmin=1.0,tmax=404.0)
 
 Channels marked as bad:
-['E61', 'E43', 'E117', 'E21', 'E49']['E48', 'E62']['E22', 'E34', 'E72']['E29', 'E26', 'E71']
+['E61', 'E62', 'E21', 'E49', 'E104', 'E117', 'E86', 'E48', 'E42', 'E43', 'E118']['E72', 'E128']
 
 ### 10 epochs 
 
@@ -850,9 +850,9 @@ Baseline	off
 
 ### epochs rejection of < 2000 µVolt + manual rejection 
 
-Dropped 8 epochs: 4, 7, 17, 30, 31, 32, 37, 39
+Dropped 11 epochs: 17, 19, 30, 31, 32, 34, 35, 36, 37, 38, 39
 The following epochs were marked as bad and are dropped:
-[4, 7, 17, 30, 31, 32, 37, 39]
+[17, 19, 30, 31, 32, 34, 35, 36, 37, 38, 39]
 
 ### ica
 Method	fastica
@@ -912,7 +912,7 @@ ICA023
 crop(tmin=3.0,tmax=392.0)
 
 Channels marked as bad:
-['E35', 'E8', 'E12', 'E77', 'E72', 'E107', 'E78']['E36', 'E25', 'E79', 'E54', 'E7', 'E29', 'E30', 'E62', 'E61']['E67', 'E64', 'E6', 'E63', 'E106', 'E80', 'E73', 'E85', 'E119', 'E127', 'E112']
+['E29', 'E71', 'E112', 'E13']['E53', 'E85', 'E73', 'E119', 'E93', 'E42', 'E44', 'E68']['E57', 'E92']
 
 ### 10 epochs 
 Number of events	38
@@ -923,28 +923,22 @@ Baseline	off
 ### epochs rejection of < 2000 µVolt + manual rejection 
 1 bad epochs dropped
 
-Dropped 2 epochs: 0, 1
+Dropped 12 epochs: 4, 5, 7, 8, 9, 13, 16, 19, 20, 29, 30, 32
 The following epochs were marked as bad and are dropped:
-[0, 1]
-Dropped 8 epochs: 0, 9, 19, 20, 21, 24, 26, 34
-The following epochs were marked as bad and are dropped:
-[2, 11, 22, 23, 24, 27, 29, 37]
+[7, 8, 10, 11, 13, 17, 20, 23, 24, 33, 34, 36]
 
-epochs remaining: 3,4,5,6,7,8,9,10, 13,14,15,16,17,18, 19,20,21, 25,26,28,30,31,32,33,34,35, 36
 
 ### ica
 Method	fastica
-Fit	62 iterations on epochs (87500 samples)
+Fit	38 iterations on epochs (55000 samples)
 ICA components	30
 Explained variance	99.0 %
-Available PCA components	113
+Available PCA components	98
 Channel types	eeg
-ICA components marked for exclusion	ICA000
-ICA006
+ICA components marked for exclusion	ICA002
+ICA000
 ICA025
-ICA010
-ICA004
-
+ICA019
 
 ####################
 
