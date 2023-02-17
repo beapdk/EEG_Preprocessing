@@ -4,3 +4,4 @@ out_pilot/
 eeg_output/
 eeg_output_pre_only
 out_figures2
+BIDS_testdata/*
